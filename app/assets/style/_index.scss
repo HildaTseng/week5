@@ -1,0 +1,30 @@
+.dropdown-toggle::after{
+    color: $gray-900;    
+}
+th{
+    padding: 1rem;
+}
+tbody th{
+    font-weight: normal;
+}
+.expand_more {
+    display: none;
+}
+.expand_less {
+    display: inline-block;
+}
+.collapsed .expand_more {
+    display: inline-block;
+}
+  
+.collapsed .expand_less {
+    display: none;
+}
+ 
+.imgwh{
+   background-image: url(../images/emir.jpeg);
+   width: 141px;
+   height: 141px;
+   background-size: cover;
+   background-position: center;   
+}
